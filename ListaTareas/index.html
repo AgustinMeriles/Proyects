@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administrador de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Administrador de Tareas</h1>
+    </header>
+
+    <main>
+        <section>
+            <div>
+                <div class="tareasPendientes">
+                    <h2>Tareas Pendientes</h2>
+                    <div class="fondoTareas" id="fondoTareas">
+                        <!-- <div id="contenedorTareas">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+            <div class="nuevaTarea">
+                <h2>Nueva Tarea</h2>
+                <div>
+                    <form id="formNuevaTarea" autocomplete="off">
+                        <div>
+                            <label for="titulo">Título</label> <br>
+                            <input type="text" id="titulo" required>
+                        </div>
+
+                        <div>
+                            <label for="nota">Nota</label> <br>
+                            <input type="text" id="nota">
+                        </div>
+
+                        <div>
+                            <label for="fecha">Fecha Límite</label> <br>
+                            <input type="date" id="fecha">
+                        </div>
+
+                        <button type="submit">Agregar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="codigo.js"></script>
+</body>
+
+</html>

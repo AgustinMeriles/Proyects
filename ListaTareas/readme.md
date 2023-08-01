@@ -1,0 +1,1 @@
+En este proyecto se desarrollo una lista de tareas con diferentes funciones como agregar y completar una tarea, el mismo fue desarrollado en visual studio code, empleando las tecnologias Javascript, HTMLy CSS.
